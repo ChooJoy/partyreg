@@ -4,6 +4,7 @@ import xlrd
 import xlwt
 from xlutils.copy import copy
 
+# длина полной пустой строки для заполнения
 LINE_LENGTH = 40
 
 
@@ -67,6 +68,7 @@ FLAT_R = 40
 FLAT_NUM_C = 96
 FLAT_NUM_R = 40
 
+# с какой страницы начинается нумерация
 page_counter = 3
 
 
